@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hackaton</title>
+    <h>Welcome to Class Registration!</h>
+    <link rel="stylesheet" href="style.css">
+    <br>
+    <a href="https://powerlearnproject.org/" target="_blank" id="website" class="website">Click to visit our website!</a>
+  
+   
+      <p id="form_instructions">Use the form below to sign up for your classes this semester. Please complete by 20 April 2024. You can message Katie if you have any issues with this form.</p>
+      <br>
+      <div class="container">
+        <div class="item">
+          <img src="imgs/form.jpg">
+        </div>
+      </div>
+      <br>
+  </head>
+  <body>
+    <div>
+      <form>
+      <a action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="FirstName LastName" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="me@email.com">
+        <br>
+        <label for="phonenum">Phone number:</label>
+        <input type="tel" id="phonenum" name="phonenum" required>
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+        <br>
+        <fieldset>
+          <label for="gender">Gender:</label>
+          <label for="man">Man</label>
+          <input type="radio" value="man" id="gender" name="gender" required>
+          <br>
+          <label for="woman">Woman</label>
+          <input type="radio" value="woman" id="gender" name="gender" required>
+          <br>
+          <label for="nonbinary">Nonbinary</label>
+          <input type="radio" value="nonbinary" id="gender" name="gender" required>
+          <br>
+          <label for="other">Other</label>
+          <input type="radio" value="other" id="gender" name="gender" required>
+          <br>
+          <label for="notsay">Prefer not to say</label>
+          <input type="radio" value="notsay" id="gender" name="gender" required>
+          <br>
+        </fieldset>
+        <br>
+        <label for="class">Class: (Hint: hold ctrl key to select multiple classes)</label>
+        <select name="class" id="class" required multiple>
+          <option value="choose_class">Choose your class(es)</option>
+          <option value="english">English</option>
+          <option value="math">Math</option>
+          <option value="science">Science</option>
+          <option value="art_craft">Arts and Crafts</option>
+          <option value="ag">Agriculture</option>
+          <option value="geog">Geography</option>
+          <option value="hist">History</option>
+        </select>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <input type="hidden" id="sessId" name="sessId" value="3487">
+        <br>
+        <input type="submit" value="Register">
+        <br>
+        <input type="reset" value="Cancel"/>
+      </form>
+    </div>
+  </body>
+</html>
