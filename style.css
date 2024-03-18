@@ -1,1 +1,80 @@
+h{color:blue;
+  font-size:20px;
+  font-family:serif, Georgia;
+  display: flex;
+  align-items: center;
+  justify-content: center;}
 
+p{
+  color:red;
+  font-size:15px;
+  font-family:serif, Georgia;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.website{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body{
+  background-color:darkgray;
+}
+.container{
+  width:500px;
+  height:500px;
+  border: 5px solid green;
+  align-items: center;
+  justify-content: center;
+}
+
+.container img{
+  width:100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  display:flex;
+}
+
+.form_instructions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family:serif, Georgia;
+  margin: 0 auto;
+  height: 100vh; 
+  background-color: #f1f1f1;
+}
+
+input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-family:serif, Georgia;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-family:serif, Georgia;
+}
+
+select {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family:serif, Georgia;
+}
+
+#class{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-family:serif, Georgia;
+}
